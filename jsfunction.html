@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+<script>
+
+function add(a,b)
+{
+    let c=a+b 
+    return c
+}
+let x=add(12,63)
+document.write(x+ "<br>")
+document.write(add(12,33) + "<br>")
+function biggest(a,b,c)
+{
+
+    if(a>b && a>c)
+    {
+        document.write("a is is greater" +"<br>")
+
+    }
+    else if( b>a && b>c)
+    {
+        document.write("b is is greater" +"<br>")
+    }
+    else if(c>a && c>b)
+    {
+    document.write(" c is is greater" +"<br>")
+    }
+    else 
+{
+    document.write(" All are equal" + "<br>")
+}
+}
+
+biggest (12,69,3)
+biggest (45,23,6)
+biggest  (45,75,93)
+biggest(12,12,12)
+
+</script>
+
+</html>
